@@ -1,0 +1,60 @@
+baseURL = "https://e.xor.cl"
+languageCode = "en-us"
+title = "Bitácora"
+theme="bita"
+copyright = "Eduardo Riveros Roca"
+pygmentsstyle = "solarized-dark"
+pygmentscodefences = true
+ignoreErrors = ["error-remote-getjson"]
+pygmentscodefencesguesssyntax = true
+enableEmoji = true
+[params]
+	useCDN=false
+	mode="auto"
+	subtitle = "¡Hola! Me llamo Eduardo y esta es mi _bitácora_ :smile:"
+	mainColor = "#009999"
+	accentColor = "#ffc400"
+	matomoURL = "//analytics.xor.cl/"
+  	matomoSiteID = "1"
+
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/eriverosr/bita"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://github.com/eriverosr/"
+
+[[menu.main]]
+name = "Inicio"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+
+[[menu.main]]
+name = "Etiquetas"
+url = "/tags"
+weight = 4
+
+[[menu.main]]
+name = "xor.cl"
+url = "https://xor.cl"
+weight = 5
+
+[[params.social]]
+name = "Telegram"
+icon = "send"
+url = "https://t.me/eriveros/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://linkedin.com/in/eriverosr/"
