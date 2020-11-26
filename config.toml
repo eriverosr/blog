@@ -1,4 +1,4 @@
-baseURL = "https://e.xor.cl"
+baseURL = "https://e.xor.cl/"
 languageCode = "en-us"
 title = "Bitácora"
 theme="bita"
